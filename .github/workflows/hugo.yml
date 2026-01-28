@@ -1,0 +1,35 @@
+name: Deploy Hugo site
+
+on:
+  push:
+    branches: ["main"] # Change en "master" si besoin
+
+# Autorise l'action à modifier le contenu du dépôt (pour le déploiement)
+permissions:
+  contents: write
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive # Important si ton thème est un submodule
+          fetch-depth: 0         # Important pour que .Lastmod fonctionne
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true # Nécessaire pour la plupart des thèmes (SASS/SCSS)
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public # Le dossier généré par Hugo
