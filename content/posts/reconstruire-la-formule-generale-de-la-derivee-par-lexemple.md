@@ -2,6 +2,7 @@
 date = '2025-12-17'
 title = "Reconstruire la formule générale de la dérivée par l'exemple"
 categories = ['Maths', 'Physics']
+description = "Reconstruction pas à pas de la formule générale de la dérivée à travers l'exemple physique de l'accélération instantanée, en faisant tendre l'intervalle de temps h vers zéro."
 +++
 
 La formule générale de la dérivée vous est souvent donnée sous la forme :

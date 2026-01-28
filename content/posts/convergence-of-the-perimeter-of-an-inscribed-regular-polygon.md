@@ -2,6 +2,7 @@
 date = '2025-03-18'
 title = 'Convergence of the perimeter of an inscribed regular polygon'
 categories = ['Maths', 'Geometry']
+Description = "Proof of the convergence of an inscribed regular polygon's perimeter toward the circle's circumference (2πr) as the number of sides n approaches infinity."
 +++
 
 Consider a $n$-sided regular polygon inscribed in a circle of radius

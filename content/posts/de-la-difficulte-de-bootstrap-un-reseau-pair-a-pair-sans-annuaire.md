@@ -2,6 +2,7 @@
 date = '2025-12-29'
 title = 'De la difficulté de bootstrap un réseau pair à pair sans annuaire'
 categories = ['Maths', 'Computer Science', 'Computer Network']
+Description = "Exploration de la difficulté mathématique de démarrer un réseau P2P par scan aléatoire, où l'immensité de l'espace IPv4 et la volatilité des adresses rendent la découverte de pairs statistiquement impossible."
 +++
 
 Dans un réseau centralisé, la découverte des pairs est facilitée par un annuaire ou une autorité centrale. Cependant, ce modèle crée un point de défaillance unique. Pour un réseau dont l'objectif est de contourner la censure, un serveur central est une cible facile : une fois l'adresse IP de l'annuaire bloquée par un État ou une autorité, l'intégralité du réseau devient invisible. Le but de la décentralisation totale est de rendre la découverte de pairs aussi résiliente que le réseau lui-même.

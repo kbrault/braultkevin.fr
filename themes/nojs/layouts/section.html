@@ -3,8 +3,8 @@
   {{ .Content }}
   {{ range .Pages }}
     <article>
-      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
       {{ partial "metadata.html" . }} 
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
       {{- if .Description }}
         <p>{{ .Description | markdownify }}</p>
       {{- end }}

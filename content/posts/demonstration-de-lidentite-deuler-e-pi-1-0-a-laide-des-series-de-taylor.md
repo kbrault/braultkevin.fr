@@ -2,6 +2,7 @@
 date = '2024-10-03'
 title = "Démonstration de l'identité d'Euler e^i*pi + 1 = 0 à l'aide des séries de Taylor."
 categories = ['Maths']
+description = "Exploration analytique de la plus belle formule des mathématiques, démontrant comment les séries de Taylor fusionnent les fonctions exponentielles et trigonométriques pour lier e, i, π, 1 et 0."
 +++
 
 L'identité d'Euler est une équation célèbre en mathématiques :
