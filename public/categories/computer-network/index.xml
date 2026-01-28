@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Network on BRAULT Kevin</title>
+    <link>http://localhost:1313/categories/computer-network/</link>
+    <description>Recent content in Computer Network on BRAULT Kevin</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/computer-network/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>De la difficulté de bootstrap un réseau pair à pair sans annuaire</title>
+      <link>http://localhost:1313/posts/de-la-difficulte-de-bootstrap-un-reseau-pair-a-pair-sans-annuaire/</link>
+      <pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/de-la-difficulte-de-bootstrap-un-reseau-pair-a-pair-sans-annuaire/</guid>
+      <description>&lt;p&gt;Dans un réseau centralisé, la découverte des pairs est facilitée par un annuaire ou une autorité centrale. Cependant, ce modèle crée un point de défaillance unique. Pour un réseau dont l&amp;rsquo;objectif est de contourner la censure, un serveur central est une cible facile : une fois l&amp;rsquo;adresse IP de l&amp;rsquo;annuaire bloquée par un État ou une autorité, l&amp;rsquo;intégralité du réseau devient invisible. Le but de la décentralisation totale est de rendre la découverte de pairs aussi résiliente que le réseau lui-même.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
